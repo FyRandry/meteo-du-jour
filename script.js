@@ -1,4 +1,4 @@
-const apiKey = 'b7470cfe5d6952d831f2ea5562784696'; // Remplace par ta clé API
+const apiKey = 'b7470cfe5d6952d831f2ea5562784696'; 
 const weatherCard = document.getElementById('weather-card');
 const loading = document.getElementById('loading');
 const error = document.getElementById('error');
