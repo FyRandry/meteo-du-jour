@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo du Jour</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>🌤️ Météo du Jour</h1>
+        
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Entrez une ville..." value="Paris">
+            <button id="search-btn">Rechercher</button>
+        </div>
+
+        <div class="weather-info" id="weather-info">
+            <div class="loading" id="loading">Chargement...</div>
+            <div class="error" id="error" style="display: none;"></div>
+            
+            <div class="weather-card" id="weather-card" style="display: none;">
+                <h2 id="city-name"></h2>
+                <div class="weather-main">
+                    <img id="weather-icon" src="" alt="icône météo">
+                    <div class="temperature" id="temperature"></div>
+                </div>
+                <div class="weather-details">
+                    <p id="description"></p>
+                    <p>💧 Humidité: <span id="humidity"></span>%</p>
+                    <p>💨 Vent: <span id="wind"></span> km/h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
