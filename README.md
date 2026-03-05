@@ -20,4 +20,4 @@ Application météo simple et élégante utilisant l'API OpenWeatherMap.
 
 1. Clone le repository
 ```bash
-git clone https://github.com/FyRandry/meteo-du-jour.git
+git clone https://github.com/TinoRandry/meteo-du-jour.git
